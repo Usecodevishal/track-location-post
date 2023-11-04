@@ -91,6 +91,11 @@ iframe {
   height: fit-content;
 }
 
+.post-offices-disp > h1{
+  color:#bbbccc;
+  text-align: center;
+}
+
 .search-post {
   width: 100%;
   height: 50px;
