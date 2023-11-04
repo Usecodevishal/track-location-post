@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Nearby Post</title>
+    <link rel="stylesheet" href="./after-styles.css" />
+  </head>
+  <body>
+    <div class="ip-info">
+      <p class="value-p">IP Address : <span class="span-val"></span></p>
+
+      <div class="other-info">
+        <div class="flex-column">
+          <p class="value-p">Lat: <span class="span-val lat-scale"></span></p>
+          <p class="value-p">Long: <span class="span-val long-scale"></span></p>
+        </div>
+        <div class="flex-column">
+          <p class="value-p">City: <span class="span-val city-span"></span></p>
+          <p class="value-p">
+            Region: <span class="span-val region-span"></span>
+          </p>
+        </div>
+        <div class="flex-column">
+          <p class="value-p">
+            Organisation: <span class="span-val organ-span"></span>
+          </p>
+          <p class="value-p">
+            Hostname: <span class="span-val host-span"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-container">
+      <h1>Your Current Location</h1>
+      <iframe
+       frameborder="0" 
+       style="border: 0">
+    </iframe>
+    </div>
+
+    <div class="more-user-info-div">
+        <h1 class="value-p">More Information About You</h1>
+
+        <div class="user-info">
+            <p class="value-p">Time:Zone : <span class="span-info"></span> </p>
+            <p class="value-p">Date And Time : <span class="span-info"></span></p>
+            <p class="value-p">Pincode : <span class="span-info"></span></p>
+            <p class="value-p">Number of Pincode(s) Found : <span class="span-info"></span></p>
+
+        </div>
+    </div>
+
+    <div class="post-offices-disp">
+
+        <div class="search-post">
+            <img src="./assets/search.png"/>
+            <input type="text" placeholder="Search By Name" onkeyup="searchPost(event)" id="searh-post-name" onkeyup="searchPost(event)"/>
+        </div>
+
+        <div class="allPost-info">
+            
+        </div>
+
+    </div>
+  </body>
+  <script src="./after-script.js"></script>
+</html>

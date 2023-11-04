@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first-view-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+}
+
+.first-view-left {
+  width: 45%;
+  height: 720px;
+  padding: 1.5rem;
+  background-color: #000000;
+}
+
+.first-view-left > h1 {
+  color: #575a85;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first-view-left > p {
+  color: #b8bccc;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  margin: 1rem auto 1rem auto;
+}
+
+.first-view-img {
+  margin-top: 4rem;
+  width: 482px;
+  height: 462px;
+  object-fit: cover;
+}
+
+.first-view-right {
+  width: 55%;
+  height: 720px;
+  background-color: #575a85;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+
+.first-view-right > h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  background-color: #575a85;
+  text-align: left;
+  color: #b8bccc;
+  
+}
+
+.get-started-btn {
+  width: 345px;
+  height: 67px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size:28px;
+  color:#bbbccc;
+  font-family:"Inter", sans-serif;
+  border:1px solid white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+  transition:all ease 0.3s;
+}
+
+.get-started-btn:active{
+  scale:0.80;
+}
+
+span{
+  color:white;
+}
+
+a{
+  text-decoration: none;
+}

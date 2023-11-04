@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@700&display=swap");
+
+* {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ip-info {
+  width: 90%;
+  padding: 2rem;
+  height: fit-content;
+}
+
+.value-p {
+  font-family: "Montserrat", sans-serif;
+  color: #b0b0bd;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.value-p:first-child {
+  margin-bottom: 1rem;
+}
+
+span {
+  color: #dfdfe9;
+}
+
+.other-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.organ-span {
+  font-size: 20px;
+}
+
+.map-container {
+  width: 90%;
+  margin: auto;
+  height: 900px;
+  background-color: #575a85;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-container > h1 {
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #bbbccc;
+  background-color: #575a85;
+}
+
+iframe {
+  width: 80%;
+  height: 70%;
+  margin: auto;
+}
+
+.more-user-info-div {
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.more-user-info-div > h1 {
+  text-align: center;
+}
+
+.user-info > p {
+  margin-bottom: 1rem;
+}
+
+.post-offices-disp {
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+  height: fit-content;
+}
+
+.search-post {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgb(137, 132, 132);
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+  margin: 2rem auto 2rem auto;
+}
+
+.search-post > input {
+  width: 80%;
+  height: 100%;
+  color:white;
+  font-size:30px;
+}
+
+.search-post > input::placeholder {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.allPost-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:1.5rem
+}
+
+.allPost-info > h1{
+  color: orange;
+}
+
+.flex-post {
+  width: 45%;
+  height: fit-content;
+  padding: 1.5rem;
+
+  border-radius: 10px;
+  background-color: #575a85;
+}
+
+.flex-post > p {
+  font-family: "Montserrat";
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom:1rem;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #575a85;
+  color:#bbbccc;
+ 
+}
+
+.post-info{
+  color:aquamarine;
+  background-color: #575a85;
+}
